@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'sign',
     'protect',
 ]
-
+SITE_ID = 1
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
